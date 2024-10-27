@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aprendendo JS</title>
+    <title>DETRAN</title>
     <style>
        
         body{
@@ -35,9 +35,9 @@
         var txtvl = window.document.getElementById('txtvl')
         var res = window.document.getElementById('res')
         var vel = Number(txtvl.value)
-        res.innerHTML = `<p>Sua velociade é de <strong>${vel}Km/h </strong></p>`
+        res.innerHTML += `<p>Sua velociade é de <strong>${vel}Km/h </strong></p>`
         if(vel > 60){
-            res.innerHTML +=`<p>Você ultrapassou a velocidade, <strong>multado(a)!!</strong></p>`
+            res.innerHTML += `<p>Você ultrapassou a velocidade, <strong>multado(a)!!</strong></p>`
         }
         res.innerHTML += `<p><strong>Dirija sempre com cuidado e segurança!</strong></p>`
        }

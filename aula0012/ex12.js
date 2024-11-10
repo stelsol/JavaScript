@@ -1,4 +1,4 @@
-var agora = new Date() // Aprendemos a cplocar o horario do sistema atual com está função nova!
+var agora = new Date() // Aprendemos a colocar o horario do sistema atual com está função nova!
 var hr = agora.getHours()
 console.log(`Agora são ${hr} hrs`)
     if(hr < 5){

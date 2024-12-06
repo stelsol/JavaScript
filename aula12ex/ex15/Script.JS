@@ -3,11 +3,11 @@ function verificar(){
    var ano = data.getFullYear()
    var fano = document.getElementById('txtano')
    var res = document.querySelector('div#res') // esta é uma segunda opção, a de cima e está fazem a mesma funcão//
-   if( fano.value.length == 0 || Number(fano.value) > ano){
+   if( fano.value.length == 0 || Number(fano.value) > ano){//Essa validação garante que o usuário preencheu o campo de ano e que o valor informado não é maior que o ano atual.//
         window.alert('Verifique os dados e tente novamente!')
    } else{
        var fsex = document.getElementsByName('radsex')
-        var idade = ano - Number(fano.value)
+        var idade = ano - Number(fano.value)//Aqui é calculada a idade subtraindo o ano de nascimento
        // res.innerHTML = `Idade calculada ${idade}` para testar o código//
        var genro = ''
        var img = document.createElement('img')

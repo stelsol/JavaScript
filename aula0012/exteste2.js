@@ -1,4 +1,4 @@
-const id = 14*
+const id = 14
 const pais = "Paris"
 console.log (`Você tem ${id} anos e está no(a) ${pais}`)
 if(id >= 18 && pais === "Brasil"){

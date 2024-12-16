@@ -9,7 +9,7 @@ function verificar(){
        var fsex = document.getElementsByName('radsex')
         var idade = ano - Number(fano.value)//Aqui é calculada a idade subtraindo o ano de nascimento
        // res.innerHTML = `Idade calculada ${idade}` para testar o código//
-       var genro = ''
+       var genero = '' // gênero irá começar vazia
        var img = document.createElement('img')
        img.setAttribute('id','foto')
        if (fsex[0].checked){
@@ -44,6 +44,6 @@ function verificar(){
             }
        }
        res.innerHTML = `Detectamos ${genero} com ${idade} anos.`
-       res.appendChild(img)
+       res.appendChild(img) // isto irá adicionar o elemento que no caso é as imagens após detectar o gênero e idade.
    }
 }

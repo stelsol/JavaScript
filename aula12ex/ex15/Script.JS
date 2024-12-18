@@ -7,7 +7,7 @@ function verificar(){
         window.alert('Verifique os dados e tente novamente!')
    } else{
        var fsex = document.getElementsByName('radsex')
-        var idade = ano - Number(fano.value)//Aqui é calculada a idade subtraindo o ano de nascimento
+        var idade = ano - Number(fano.value)//Aqui é calculada a idade subtraindo o ano de nascimento do atual!
        // res.innerHTML = `Idade calculada ${idade}` para testar o código//
        var genero = '' // gênero irá começar vazia
        var img = document.createElement('img')

@@ -37,6 +37,9 @@ section{
     padding: 10px;
     text-align: center;
 }
+input#txtn{
+   width: 50px;
+}
 .button{
     border-radius: 10px;
     margin: 11px;
